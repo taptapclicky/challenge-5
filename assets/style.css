@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    background-color: beige;
 
 }
 
@@ -13,31 +14,36 @@
 }
 
 .view-score {
-    background-color: blueviolet;
-    border-radius: 5px;
-    box-shadow: 0 0 0 8px black;
+    background-color: lightslategray;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px ;
+    cursor: pointer;
 
 }
 
 .opening {
-    margin: 20px;
+    margin: 25px;
     padding: 20px;
 
 }
 
 .container {
-    width: 600ox;
-    height: 3000px;
+    width: 600px;
+    height: 300px;
     text-align: center;
+    margin-right: 100px;
 }
 
 .title {
-    margin: 15px;
-    font-size: 30px;
+    margin: 50px;
+    font-size: 30px; 
+    line-height: 100px;
+   
+    
 }
 
 .text {
-    margin: 10px;
+    margin: 20px;
     font-size: 20px;
     line-height: 1.5;
 
@@ -48,11 +54,12 @@
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     color: #fff;
-    background-color: blueviolet;
+    background-color: lightslategray;
     border: none;
     padding: 5px;
     margin: 10px;
     cursor: pointer;
+    
 }
 
 .btn:hover {
@@ -61,7 +68,7 @@
 }
 
 .btn-start {
-    width: 220px;
+    width: 210px;
 }
 
 .btn-answer {
@@ -71,7 +78,7 @@
 
 .divider {
     visibility: hidden;
-    border: 2px solid rgba(128, 128,0.5);
+    border: 3px solid black;
     margin: 0 auto;
 }
 
@@ -84,7 +91,7 @@
 .check-result {
     font-size: 25px;
     font-style: italic;
-    color: aqua;
+    color: black;
     letter-spacing: 1px;
 }
 
